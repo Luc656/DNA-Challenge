@@ -43,7 +43,7 @@ This graph plots the distribution of sequence lengths of the 100 sets in each di
 ![gc](https://github.com/Luc656/DNA-Challenge/assets/94873030/4b21e368-a199-4976-b20a-258ddbbea538)
 
 
-This graph shows how the gc content is distributed among the 100 sets of sequences for each error rate. Given that the template sequence starts at 60% we could expect the gc contents of the copied sequences to be distributed around this mark. However, because each insertion and mismatch is randomly assigned to new based all with equal likelihood and because G and C bases make up more of the template sequence and hence are more likely to be removed we can expect this GC content to trend back towards 50%, with the trend becoming stronger at higher error rates.
+This graph shows how the GC content is distributed among the 100 sets of sequences for each error rate. Given that the template sequence starts at 60% we could expect the GC contents of the copied sequences to be distributed around this mark. However, because each insertion and mismatch is randomly assigned to new based all with equal likelihood and because G and C bases make up more of the template sequence and hence are more likely to be removed we can expect this GC content to trend back towards 50%, with the trend becoming stronger at higher error rates.
 
 
 ### plot_error_position_per_error_type
@@ -51,7 +51,7 @@ This graph shows how the gc content is distributed among the 100 sets of sequenc
 ![graph3](https://github.com/Luc656/DNA-Challenge/assets/94873030/fa56c1da-dc6f-4461-a8aa-a904ea23359e)
 
 
-This graph plots the error position distribution for all error rates per error type. Due to the fact that in our template sequence errors become increasingly more likely as we iterate through the sequence we can expect most non homo polymer related errors to be distributed at the end of the sequence, this graph support this hypothesis. In addition, homo polymer runs only occur at certain positions in the template sequence, we can see where these are in the sequence by looking at their error distribution, these were also randomly sampled for error insertion hence a more even distribution than the other error types.
+This graph plots the error position distribution for all error rates per error type. Due to the fact that in our template sequence errors become increasingly more likely as we iterate through the sequence we can expect most non homopolymer related errors to be distributed at the end of the sequence, this graph support this hypothesis. In addition, homo polymer runs only occur at certain positions in the template sequence, we can see where these are in the sequence by looking at their error distribution, these were also randomly sampled for error insertion hence a more even distribution than the other error types.
 
 
 ### plot_run_length_ratio_per_nucleotide_per_error_rate
