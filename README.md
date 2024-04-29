@@ -26,4 +26,5 @@ Takes a Sequence, an error_rate, a homopolymer error rate and the location of ho
 
 <img width="1509" alt="Screenshot 2024-04-29 at 14 57 29" src="https://github.com/Luc656/DNA-Challenge/assets/94873030/883e2562-f276-4f64-83f4-7a63fb44cbbf">
 
-This graph
+
+This graph plots the distribution of sequence lengths of the 100 sets in each differetn error rate category. Given that all sequences are based of the template of length 100, and the errors are randomly assigned to insertions (length increases by 1), deletions (length decreases by 1) and mismatch (no length change) we can expect the sample lengths to be normally distributed around a mean of 100. This graph supports this hypothesis and also shows that as the error rate increases the variance of the sequence lengths increases also, due to having an increased number of errors in the sequnce 
