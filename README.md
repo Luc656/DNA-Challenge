@@ -48,7 +48,8 @@ This graph plots the error position distribution for all error rates per error t
 
 ### plot_run_length_ratio_per_nucleotide_per_error_rate
 
-[graph4.pdf](https://github.com/Luc656/DNA-Challenge/files/15151193/graph4.pdf)
+![Screenshot 2024-04-29 at 16 46 44](https://github.com/Luc656/DNA-Challenge/assets/94873030/02c1456e-69ac-4c6b-b3d1-3e9e33a735fb)
+
 
 This graph plots the distributions of total sequence length that is made up by homopolymer runs per base per error rate for all sequence copies. For bases G and C we see larger proportions of the sequences are made up of their respective homopolymers. This is likely because the template strand has 60% GC content increasing the likelihood of these bases appearing together in the sequence.
 
