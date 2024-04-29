@@ -4,7 +4,11 @@
 
 ### Build()
 
-Randomly picks bases Afrom A, T, C, G and appends them to a list to make a sequnce until the length matches the input length. The function also takes GC Content as a parameter, biasing the random selection of bases.
+Input: length, bases, gc_content
+
+Randomly picks bases appends them to a list to make a sequnce until the length matches the input length. The function also takes GC Content as a parameter, biasing the random selection of bases.
+
+Output: list of bases
 
 ### spot_homoplymer_runs()
 
@@ -16,4 +20,10 @@ Takes a Sequence, an error_rate, a homopolymer error rate and the location of ho
 
 ## Graphs
 
+### plot_sequence_length_per_error_rate
 
+
+
+<img width="1509" alt="Screenshot 2024-04-29 at 14 57 29" src="https://github.com/Luc656/DNA-Challenge/assets/94873030/883e2562-f276-4f64-83f4-7a63fb44cbbf">
+
+This graph
